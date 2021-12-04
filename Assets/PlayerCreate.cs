@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 public class PlayerCreate : MonoBehaviour
 {
-    public GameObject Player;
+    public GameObject[] Players;
 
     private int Money = 0;
 
@@ -27,12 +27,12 @@ public class PlayerCreate : MonoBehaviour
         MoneyText.text = Money.ToString() + "‰~";
     }
 
-    public void OnClick()
+    public void OnClick(int index)
 
     {
      if (Money >= Price)
         {
-            Instantiate(Player.gameObject, new Vector3(9.13f, -1.17f, 0), Quaternion.identity);
+            Instantiate(Players[index].gameObject, new Vector3(9.13f, -1.17f, 0), Quaternion.identity);
 
             Money -= Price;
         }
