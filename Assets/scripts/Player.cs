@@ -38,10 +38,9 @@ public class Player : MonoBehaviour
         if (collision.gameObject.tag == "Enemy")
         {
             playerHP -= 1;
-            
+            move = false;
             anim.SetBool("Attack", true);
 
-            move = false;
         }
     }
 
@@ -51,10 +50,11 @@ public class Player : MonoBehaviour
         if (collision.gameObject.tag == "Enemy")
 
         {
+            move = true;
             anim.SetBool("Attack", false);
 
 
-            move = true;
+            
         }
     }
 
