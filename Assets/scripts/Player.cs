@@ -17,9 +17,11 @@ public class Player : MonoBehaviour
     {
         transform.rotation = Quaternion.Euler(0, Direction, 0);
 
-        anim = GetComponent<Animator>();
+        anim = GetComponentInChildren<Animator>();
 
         move = true;
+
+        anim.SetBool("Attack", false);
     }
 
     // Update is called once per frame
