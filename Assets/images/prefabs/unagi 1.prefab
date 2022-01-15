@@ -166,4 +166,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MoveSpeed: -1
   Direction: 0
-  playerHP: 800
+  playerHP: 15000
+  playerATK: 800

@@ -95,7 +95,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MoveSpeed: -5
   Direction: 0
-  playerHP: 1100
+  playerHP: 4000
+  playerATK: 1000
 --- !u!1 &8807806988977396080
 GameObject:
   m_ObjectHideFlags: 0

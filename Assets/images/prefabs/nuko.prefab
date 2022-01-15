@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 7754186626598205142}
   - component: {fileID: 7754186626598205140}
   m_Layer: 0
-  m_Name: Player_0
+  m_Name: nuko
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -166,4 +166,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MoveSpeed: -1
   Direction: 0
-  playerHP: 800
+  playerHP: 8000
+  playerATK: 100

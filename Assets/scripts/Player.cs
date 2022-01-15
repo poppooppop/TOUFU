@@ -12,6 +12,8 @@ public class Player : MonoBehaviour
     private bool move;
     [SerializeField]
     private int playerHP = 10;
+    
+    public int playerATK = 10;
     // Start is called before the first frame update
     void Start()
     {
@@ -39,7 +41,7 @@ public class Player : MonoBehaviour
     {   
         if (collision.gameObject.tag == "Enemy")
         {
-            playerHP -= 1;
+            playerHP -= collision.gameObject.GetComponent<Enemy>().EnemyATK;
             move = false;
             anim.SetBool("Attack", true);
 

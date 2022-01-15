@@ -1881,7 +1881,7 @@ MonoBehaviour:
   - {fileID: 1842594858868541766, guid: 968385056ffbf8d48bc8adeaad8d4b4b, type: 3}
   - {fileID: 1219737809336117992, guid: ea1bc9e39a6d9594d9ac8d38de208c96, type: 3}
   MoneyText: {fileID: 1865768912}
-  Price: 100
+  Prices: 14000000f40100001027000058020000
 --- !u!4 &1586071734
 Transform:
   m_ObjectHideFlags: 0

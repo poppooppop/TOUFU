@@ -150,7 +150,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MoveSpeed: -1
   Direction: 0
-  playerHP: 100000
+  playerHP: 200000
+  playerATK: 10000
 --- !u!50 &7671104278497399081
 Rigidbody2D:
   serializedVersion: 4

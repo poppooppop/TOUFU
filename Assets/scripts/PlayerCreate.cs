@@ -11,7 +11,7 @@ public class PlayerCreate : MonoBehaviour
     public Text MoneyText;
 
     [SerializeField]
-    private int Price = 100;
+    private int[] Prices;
 
       // Start is called before the first frame update
     void Start()
@@ -30,11 +30,11 @@ public class PlayerCreate : MonoBehaviour
     public void OnClick(int index)
 
     {
-     if (Money >= Price)
+     if (Money >= Prices[index])
         {
             Instantiate(Players[index].gameObject, new Vector3(9.13f, -1.17f, 0), Quaternion.identity);
 
-            Money -= Price;
+            Money -= Prices[index];
         }
 
 

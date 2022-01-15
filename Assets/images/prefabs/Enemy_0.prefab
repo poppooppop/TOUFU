@@ -166,4 +166,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MoveSpeed: 1
   Direction: 180
-  EnemyHp: 1000
+  EnemyHp: 10000
+  EnemyATK: 100
